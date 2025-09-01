@@ -26,23 +26,41 @@ h1{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-color: transparent;
+}
+
+.div-span{
+    margin-top: 20px;
 }
 
 p{
     padding: 50px 0px;
 }
 
-.list{
+.my-list{
     padding: 0 50px;
     text-align: center;
     align-items: center;
     list-style-position: inside;
+    list-style: none;
 }
 
 .bg span{
     padding: 10px;
     border-radius: 5px;
-    background-color: rgb(252, 196, 241);
+    background-color: rgb(250, 142, 228);
     margin-top: 50px;
+}
+
+.navbar{
+background-color: rgb(250, 192, 240);
+font-size: medium;
+width: 100%;
+position: fixed;
+}
+.navbar h1{
+    font-size: 25px;
+}
+
+.navbar a{
+    padding: 10px;
 }
