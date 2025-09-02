@@ -1,4 +1,4 @@
-# 🚀 Meu Repositório de Estudos em CSS
+# Estudos em CSS
 
 Bem-vindo(a) ao meu repositório de estudos de CSS! Este espaço é dedicado a registrar meu progresso, praticar conceitos e construir pequenos projetos para solidificar meu conhecimento em estilização web.
 
