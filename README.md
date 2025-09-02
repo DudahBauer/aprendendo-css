@@ -2,7 +2,6 @@
 
 Bem-vindo(a) ao meu repositório de estudos de CSS! Este espaço é dedicado a registrar meu progresso, praticar conceitos e construir pequenos projetos para solidificar meu conhecimento em estilização web.
 
-O objetivo é criar um "diário de bordo" visual da minha jornada aprendendo CSS.
 
 
 
