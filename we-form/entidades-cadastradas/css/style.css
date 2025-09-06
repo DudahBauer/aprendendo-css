@@ -1,0 +1,121 @@
+:root{
+    font-size: 62.5%;
+}
+
+body{
+   font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+.pink-font{
+    color: #FF5678;
+}
+
+.wrapper {
+  max-width: 80rem;
+  width: 90%;
+  margin: 2rem auto;
+  padding: 3rem 4rem;
+
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+}
+
+.title{
+
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+
+.container{
+  height: 100vh;;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+
+.container h1{
+    font-size: 6.4rem;
+    font-family: Roboto;
+    text-align: center;
+}
+
+.options-wrapper{
+
+display: flex;
+flex-direction: column;
+}
+
+.title-container{
+    text-align: left;
+}
+
+.linhas {
+  display: flex;
+    gap: 2.4rem;
+  align-items: center;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #eee;
+  margin-top: 2.2rem;
+}
+
+
+  .linhas h2{
+    font-size: 2.4rem;
+    font-family: Poppins;
+
+    font-family: Poppins;
+font-weight: 500;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+
+  }
+
+  .linhas a{
+    font-size: 2.4rem;
+    text-decoration: underline;
+    color: #FF5678;
+  }
+
+  .linhas input[type="submit"]{
+    background-color: white;
+    color: #35E6E9;
+    cursor: pointer;
+    width: 28.6rem;
+    height: auto;
+    border: 0.1rem solid #35E6E9;
+    border-radius: 1.2rem;
+    padding: 0.8rem 1.6rem;
+
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+
+  }

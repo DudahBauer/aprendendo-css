@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+}
+
+.wrapper{
+    height: 100svh;
+    width: 100svw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4.5rem;
+}
+
+.aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5.5rem;
+}
+
+.img-container {
+    display: flex;
+    max-width: 42rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container img{
+    width: 100%;
+}
+
+.aside h1{
+    font-weight: 500;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+span{
+    color: #FF5678;
+
+}
+a{
+    text-decoration: none;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    width: 60%;
+    max-width: 70rem;
+}
+
+.main-container{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 70rem;
+}
+
+.small-container h2{
+    font-size: 3.6rem;
+    font-weight: bold;
+}
+
+
+.main-container form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+
+.form-container p{
+    font-size: 1.8rem;
+    text-align: center;
+    color: black;
+    margin-bottom: 0.2rem;
+}
+
+.ou{
+    font-weight: bold;
+    font-weight: 600;
+}
+
+.wrapper-form{
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    padding: 4.4rem 5.7rem;
+    max-width: rem;
+    width: 100%;
+}
+
+form{
+    width: 100%;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem ;
+}
+
+.field label {
+    font-size: 1.8rem;
+    line-height: 100%;
+}
+
+.field input {
+    height: 5.5rem;
+    width: 100%;
+    border-radius: 1.2rem;
+    border: 0.2rem solid lightgray;
+    font-size: large;
+}
+
+.field input:focus {
+    outline: none;
+    border: 0.2rem solid #35E6E9;
+}
+
+
+.register input[type="submit"] {
+    background-color: #35E6E9;
+    color: white;
+    font-size: 3.6rem;
+    font-weight: 500;
+    cursor: pointer;
+    width: 100%;
+    height: 5.5rem;
+    border: none;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
