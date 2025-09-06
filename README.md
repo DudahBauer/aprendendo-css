@@ -13,11 +13,17 @@ A estrutura atual do meu repositório está organizada da seguinte forma:
 .
 ├── /curso-ada
 │   └── /exercicios-das-aulas
-│       └── ... (seus arquivos de exercício aqui)
+│       └── ... (arquivos dos exercícios )
 ├── /learning-animation
 │   ├── index.html
 │   └── /css
 │       └── style.css
+├── /we-form
+│   ├── index.html
+│   ├── /css
+│   │   └── style.css
+│   └── /img
+│       └── ... (imagens)
 └── README.md
 ```
 ---
