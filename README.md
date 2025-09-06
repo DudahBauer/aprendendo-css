@@ -13,17 +13,29 @@ A estrutura atual do meu repositório está organizada da seguinte forma:
 .
 ├── /curso-ada
 │   └── /exercicios-das-aulas
-│       └── ... (arquivos dos exercícios )
+│       └── ... (arquivos dos exercícios)
 ├── /learning-animation
 │   ├── index.html
 │   └── /css
 │       └── style.css
 ├── /we-form
-│   ├── index.html
+│   ├── /campo-de-atuação
+│   │   ├── index.html
+│   │   └── /css
+│   │       └── style.css
 │   ├── /css
 │   │   └── style.css
-│   └── /img
-│       └── ... (imagens)
+│   ├── /entidades-cadastradas
+│   │   ├── index.html
+│   │   └── /css
+│   │       └── style.css
+│   ├── /img
+│   │   └── ... (imagens utilizadas no projetinho)
+│   ├── /nova-entidade
+│   │   ├── index.html
+│   │   └── /css
+│   │       └── style.css
+│   └── index.html
 └── README.md
 ```
 ---
