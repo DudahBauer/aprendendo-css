@@ -18,24 +18,29 @@ A estrutura atual do meu repositório está organizada da seguinte forma:
 │   ├── index.html
 │   └── /css
 │       └── style.css
-├── /we-form
-│   ├── /campo-de-atuação
+├── /static-pages
+│   ├── /login-page-facebook
 │   │   ├── index.html
 │   │   └── /css
 │   │       └── style.css
-│   ├── /css
-│   │   └── style.css
-│   ├── /entidades-cadastradas
-│   │   ├── index.html
-│   │   └── /css
-│   │       └── style.css
-│   ├── /img
-│   │   └── ... (imagens utilizadas no projetinho)
-│   ├── /nova-entidade
-│   │   ├── index.html
-│   │   └── /css
-│   │       └── style.css
-│   └── index.html
+│   └── /we-form
+│       ├── /campo-de-atuação
+│       │   ├── index.html
+│       │   └── /css
+│       │       └── style.css
+│       ├── /css
+│       │   └── style.css
+│       ├── /entidades-cadastradas
+│       │   ├── index.html
+│       │   └── /css
+│       │       └── style.css
+│       ├── /img
+│       │   └── ... (imagens)
+│       ├── /nova-entidade
+│       │   ├── index.html
+│       │   └── /css
+│       │       └── style.css
+│       └── index.html
 └── README.md
 ```
 ---
