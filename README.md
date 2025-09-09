@@ -13,11 +13,29 @@ A estrutura atual do meu repositório está organizada da seguinte forma:
 .
 ├── /curso-ada
 │   └── /exercicios-das-aulas
-│       └── ... (seus arquivos de exercício aqui)
+│       └── ... (arquivos dos exercícios)
 ├── /learning-animation
 │   ├── index.html
 │   └── /css
 │       └── style.css
+├── /we-form
+│   ├── /campo-de-atuação
+│   │   ├── index.html
+│   │   └── /css
+│   │       └── style.css
+│   ├── /css
+│   │   └── style.css
+│   ├── /entidades-cadastradas
+│   │   ├── index.html
+│   │   └── /css
+│   │       └── style.css
+│   ├── /img
+│   │   └── ... (imagens utilizadas no projetinho)
+│   ├── /nova-entidade
+│   │   ├── index.html
+│   │   └── /css
+│   │       └── style.css
+│   └── index.html
 └── README.md
 ```
 ---
@@ -47,8 +65,18 @@ Aqui estão os projetos e conceitos que já pratiquei até agora.
     * [x] Position e Introdução à Flexbox
     * [x] Flexbox e Alinhamentos
     * [x] Seletores, Responsividade e Animações
-    * [ ] Grid Layout e Unidade "fr"
+    * [x] Grid Layout e Unidade "fr"
 * **[Clique aqui para ver o código](https://github.com/DudahBauer/aprendendo-css/tree/main/curso-ada/exercicios-das-aulas)**
+
+
+#### 3. Projeto: We Form - Cadastro de Entidades
+* **Pasta:** `/we-form`
+* **Descrição:** Um projeto de múltiplas páginas para praticar a criação de formulários e listagens complexas. A aplicação simula um sistema de cadastro de entidades, com telas para criar, listar e gerenciar itens, colocando em prática conceitos avançados de alinhamento e espaçamento.
+* **Conceitos Praticados:**
+    * Layouts complexos com Flexbox (`flex-direction`, `justify-content`, `align-items`).
+    * Estilização avançada de formulários (`input`, `label`, `button`).
+    * Organização de projeto em múltiplas pastas e arquivos HTML/CSS.
+* **[Clique aqui para ver o código](https://github.com/DudahBauer/aprendendo-css/tree/main/we-form)**
 
 ---
 
@@ -63,7 +91,6 @@ Este repositório foca exclusivamente nas tecnologias essenciais do front-end:
 
 ### 📖 Próximos Passos e Metas de Estudo
 
-- [ ] Aprender sobre Grid Layout e Unidade "fr".
 - [ ] Estudar pseudo-classes e pseudo-elementos avançados.
 - [ ] Criar um projeto de Landing Page completo.
 
