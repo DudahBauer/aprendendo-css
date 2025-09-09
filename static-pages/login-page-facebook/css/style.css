@@ -1,0 +1,257 @@
+
+/*ZERA O CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*DEFINO VÁRIAVEIS DE CORES*/
+:root{
+    font-size: 62.5%;
+    --color-primary: rgba(24, 119, 242, 1);
+    --color-secundary: rgba(240, 242, 245, 1);
+    --color-white: rgba(255, 255, 255, 1);
+    --color-text-primary: rgba(28, 30, 33, 1);
+    --color-text-secundary: rgba(138, 141, 145, 1);
+    --color-button-secundary: rgba(66, 183, 42, 1);
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/*define o estilo do container alguns filhos*/
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 80svh;
+    width: 100svw;
+    font-family: "Roboto Condensed";
+    background-color: var(--color-secundary);
+    padding: 0  8rem;
+    gap: 20rem;
+
+}
+
+.container p{
+    font-size: 3.2rem;
+    font-family: "Roboto Condensed";
+    width: 100%;
+    height: 7.6rem;
+}
+
+.title h1{
+    display: flex;
+    align-items: flex-start;
+    color: var(--color-primary);
+    font-size: 10rem;
+    font-family: "Signika";
+}
+
+/*define o  estilo do aside*/
+.aside-container{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    flex: 1;
+    max-width: 40.7rem;
+    gap: 2rem;
+    margin-bottom: 14rem;
+}
+
+aside .aside-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+
+}
+
+h2{
+    font-weight: lighter;
+    font-size: 2.4rem;
+
+}
+
+h2 span{
+    color: var(--color-text-primary);
+    font-weight: bold;
+}
+
+/*define estilo do main*/
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+
+}
+
+.page-for-celebrity{
+    margin-top: 2.4rem;
+}
+
+/*define estilo do container do formulário*/
+.form-container{
+    background-color: var(--color-white);
+    display: flex;
+    font-family: "Inter";
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem;
+    max-width: 48.5rem;
+    width: 100%;
+    border-radius: 1rem;
+    gap: 1.1rem;
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.25);
+
+}
+/*define estilo dos inouts e buttons*/
+.field input[type="text"]{
+    display: flex;
+    height: 5rem;
+    width: 100%;
+    border: solid 0.5px var(--color-text-secundary);
+    border-radius: 1rem;
+    text-indent: 2.5rem;
+    font-size: 1.6rem;
+}
+
+.form-container .login button[type="submit"] {
+    background-color: var(--color-primary);
+    font-family: "Inter";
+    font-weight: bold;
+    color: var(--color-white);
+    font-size: 1.6rem;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+    border: solid 1px var(--color-primary);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.form-container .button-create-new-account button[type="submit"]{
+    background-color: var(--color-button-secundary);
+    width: 100%;
+    height: 5rem;
+    border-radius: 1rem;
+    border: var(--color-button-secundary);
+    color: var(--color-white);
+    font-size: 1.6rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button-create-new-account{
+    margin-top: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.login{
+margin-top: 2.5rem;
+
+}
+
+.forgot-password{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin-bottom: 2.4rem;
+}
+
+.forgot-password a{
+    color: var(--color-primary);
+    font-size: 1.6rem;
+    font-family: "Roboto";
+    text-decoration: none;
+font-weight: bold;}
+
+
+.button-create-new-account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.1rem;
+}
+
+/*define o estilo do footer*/
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: end;
+    align-items: end; */
+    list-style: none;
+    flex-basis: 100%;
+    background-color: var(--color-white);
+    font-size: 1.6rem;
+    color: var(--color-text-secundary);
+    max-height:27.7rem;
+    width: 100vw;
+    padding-left: 10rem;
+    padding-right: 20rem;
+    padding-top: 4.3rem;
+    padding-bottom: 2rem;
+    /* position: absolute; */
+}
+
+.first-list .languages{
+margin-bottom: 1.5rem;
+
+}
+
+.secound-list{
+    margin-top: 2.3rem;
+    margin-bottom: 4.4rem;
+
+}
+
+.languages{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size: 1.6rem;
+    font-family: "Roboto";
+    color: var(--color-text-secundary);
+}
+
+.settings{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size: 1.6rem;
+    font-family: "Roboto";
+    color: var(--color-text-secundary);
+}
+
+.settings a{
+    text-decoration: none;
+    color: var(--color-text-secundary);
+}
+
+.button{
+    width: 3.3rem;
+    height: 2.6rem;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.meta{
+    color: var(--color-text-secundary);
+    font-size: 1.6rem;
+    font-weight: bold;
+
+}
+
+
+
