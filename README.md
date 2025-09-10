@@ -18,24 +18,29 @@ A estrutura atual do meu repositório está organizada da seguinte forma:
 │   ├── index.html
 │   └── /css
 │       └── style.css
-├── /we-form
-│   ├── /campo-de-atuação
+├── /static-pages
+│   ├── /login-page-facebook
 │   │   ├── index.html
 │   │   └── /css
 │   │       └── style.css
-│   ├── /css
-│   │   └── style.css
-│   ├── /entidades-cadastradas
-│   │   ├── index.html
-│   │   └── /css
-│   │       └── style.css
-│   ├── /img
-│   │   └── ... (imagens utilizadas no projetinho)
-│   ├── /nova-entidade
-│   │   ├── index.html
-│   │   └── /css
-│   │       └── style.css
-│   └── index.html
+│   └── /we-form
+│       ├── /campo-de-atuação
+│       │   ├── index.html
+│       │   └── /css
+│       │       └── style.css
+│       ├── /css
+│       │   └── style.css
+│       ├── /entidades-cadastradas
+│       │   ├── index.html
+│       │   └── /css
+│       │       └── style.css
+│       ├── /img
+│       │   └── ... (imagens)
+│       ├── /nova-entidade
+│       │   ├── index.html
+│       │   └── /css
+│       │       └── style.css
+│       └── index.html
 └── README.md
 ```
 ---
@@ -69,15 +74,18 @@ Aqui estão os projetos e conceitos que já pratiquei até agora.
 * **[Clique aqui para ver o código](https://github.com/DudahBauer/aprendendo-css/tree/main/curso-ada/exercicios-das-aulas)**
 
 
-#### 3. Projeto: We Form - Cadastro de Entidades
-* **Pasta:** `/we-form`
-* **Descrição:** Um projeto de múltiplas páginas para praticar a criação de formulários e listagens complexas. A aplicação simula um sistema de cadastro de entidades, com telas para criar, listar e gerenciar itens, colocando em prática conceitos avançados de alinhamento e espaçamento.
-* **Conceitos Praticados:**
-    * Layouts complexos com Flexbox (`flex-direction`, `justify-content`, `align-items`).
-    * Estilização avançada de formulários (`input`, `label`, `button`).
-    * Organização de projeto em múltiplas pastas e arquivos HTML/CSS.
-* **[Clique aqui para ver o código](https://github.com/DudahBauer/aprendendo-css/tree/main/we-form)**
-
+#### 3. Projeto: Páginas Estáticas para Prática de CSS
+* **Pasta:** `/static-pages`
+* **Descrição:** Esta seção agrupa projetos focados na recriação de páginas estáticas conhecidas e na construção de layouts a partir do zero. Para treinar CSS na prática, aplicando conceitos de estruturação, posicionamento e responsividade em cenários reais.
+* **Projetos Incluídos:**
+    * **Página de Login do Facebook:**
+        * **Descrição:** Recriação fiel da página de login do Facebook. Um excelente exercício para aprimorar o uso de Flexbox na centralização e distribuição de elementos, além de focar na estilização detalhada de formulários.
+        * **Conceitos Praticados:** Layout com Flexbox, estilização de `input` e `button`, uso de cores e fontes para replicar um design e **uso de Variáveis CSS (`--primary-color`) para gerenciamento de tema**.
+        * **[Clique aqui para ver o código](https://github.com/DudahBauer/aprendendo-css/tree/main/static-pages/login-page-facebook)**
+    * **We Form - Cadastro de Entidades:**
+        * **Descrição:** Um projeto de múltiplas páginas para praticar a criação de formulários e listagens complexas, simulando um sistema de cadastro de entidades.
+        * **Conceitos Praticados:** Layouts complexos com Flexbox (`flex-direction`, `justify-content`), organização de projeto em múltiplas pastas, estilização avançada de formulários e **padronização de estilos com Variáveis CSS**.
+        * **[Clique aqui para ver o código](https://github.com/DudahBauer/aprendendo-css/tree/main/static-pages/we-form)**
 ---
 
 ### 🛠️ Tecnologias
